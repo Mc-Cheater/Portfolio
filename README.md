@@ -94,7 +94,7 @@ I hope that you will find it interesting.
   The median point. (K-median)
   The mode.(K-mode, useful for qualitative dataset where the average calculation is impracticable).
    
-   ##### Density Based methods (DB-SCAN DENCLUE).
+   ##### Density Based methods (DB-SCAN).
    DB-SCAN introduce two parameters MinPts and &epsilon .
    &epsilon refer to the maximal distance between two elements under which they are considered as neighbors.
    Minpts is the minimal number of neighbors that an element should have to be considered as a kernel.
@@ -122,8 +122,16 @@ I hope that you will find it interesting.
   The call construct_cluster will consider x as a cluster and add it's neighbor to the cluster.
   if an element added is a kernel each element d-connected to x will be added to it.
   
+  ##### Similarity
   
+  Each one of the precedently presented algorithms rely on a dissimilarity measure (generally the euclidian distance).
   
+  However for qualitative datasets this calculation is impracticable, feature encoding is a good way of handling this problem.
+  
+  By embedding the features of a qualitative dataset to a low dimensional space we can apply this calculation provided that those vector 
+  capture the similarity.
+  
+  #### Hashian and Liu modélisation:
   
   
   
