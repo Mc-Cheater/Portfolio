@@ -1,5 +1,10 @@
 # Portfolio
-A simple presentation
+Welcome to my portfolio, i'm Adil Qarboua a new technologies ethousiast, i have strong interest to the fields of Artificial Intelligence and High Performance Computing.
+i have a preference towards low level programming language (C and C++) as i awkwardly feel like not doing too much when i use Python.
+
+In the next sections i will present my academic background with emphasis on two particular projects.
+
+I hope that you will find it interesting.
 
 ## Precedent work
 ### C/c++
@@ -15,8 +20,8 @@ A simple presentation
   #### Application  
   Graph embedding have a large application panel like :
  
-  * app1
-  * app2
+  * Biomedical and BioInformatic
+  * Association Rule 
   * **Features encoding** 
   We will focus on features encoding. In the next section i will present the principle of Word2Vec who is widely used on NLP and who is
   mainly based on graph embedding.
@@ -43,7 +48,7 @@ A simple presentation
   Even if it's not common it's seems correct we can interpret it as if you retrieve the signification of  the word France from the word Paris you will end up with 
   Capital city by adding england to it you end up in London.
   
-  In reality the text corpus this particular skip gram model was trained on is a corpus who describe different statistics on cities. Paris and London appears often on the same context as (the capital city , the highest population density etc...).
+  In reality the text corpus this particular skip gram model was trained on is a corpus who describe different statistic metrics on cities. Paris and London appears often on the same context as (The highest population density, The highest GPD per capita etc...).
   The fact that words where transformed into vectors allow us to do the - and + operations and the equality (the = operator) is in reality the word represented by the vector with the lowest euclidian distance to the current result of the equation.
   
   How can a skip gram model capture this proximity regarding to the context?
@@ -51,10 +56,13 @@ A simple presentation
   Take a look at the next figure.
   ![a skip gram model]()
   
-  .
+  The skip garm model will train an auto encoder as if the most common desired output for each word is the most common words surrounding it on a sentence.
+  Two words will be similar (have a low euclidian distance between them on the vectorial space) if they appear often on the same context.
   
+  The auto encoder duty will be to encode sufficiently well the input vector on the most inner hidden layer of it's encoder part.
   
-  
+  So if you retrieve the weights of this layer they should somehow encode the features in a way that will allow a discrimination,
+  these weight will then represent the features on the vectorial space after the training.
   
   
   
