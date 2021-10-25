@@ -9,7 +9,7 @@ I hope that you will find it interesting.
 ## Precedent work
 ### C/c++
 <details markdown=1>
-  <summary> Hypergraph Embedding</summary>
+  <summary> Hypergraph Embedding for Clustering</summary>
   
   #### Introduction
   
@@ -26,7 +26,7 @@ I hope that you will find it interesting.
   We will focus on features encoding. In the next section i will present the principle of Word2Vec who is widely used on NLP and who is
   mainly based on graph embedding.
   
-  #### From Word2vec to classification using hypergraphs
+  #### Word2vec and auto-encoders
   Word2vec is an algorithm who process a text corpus and who transform each word into a vector based on the training of a special
   type of auto-encoders.
   
@@ -64,10 +64,14 @@ I hope that you will find it interesting.
   So if you retrieve the weights of this layer they should somehow encode the features in a way that will allow a discrimination,
   these weight will then represent the features on the vectorial space after the training.
   
-  
-  
-  
-  
+  #### Clustering and similarity
+  During this section i will briefly present the principles behind the clustering algorithms present on the figure Clustering algorithm and similarity.
+  Then i will present Hashian and Liu Hypergraphs modelisation proposal for capturing similarity between features of a qualitatif dataset based on frequency.
+  #### DeepWalk, Node2Vec and Random Walks
+  During this section i will present the way i implemented Node2vec and Deep Walk for hypergraphs embedding purposes.
+  #### Results
+  I will present the result on 2 real datasets. A dataset of AliBaba clients who tries to identify wich incentives (ticket reduction, Proximity of stores) affect customer fidelity.
+  A dataset of patients diagnosed with laro-pharynx cancer who tries to identify the common traits of these patients.
   
 </details>
   
