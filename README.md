@@ -108,10 +108,15 @@ I hope that you will find it interesting.
    Two elements X and Y are d-connected if an element Z exist from wich X and Y are d-reachable.
    
    The algorithm can be described as:
+   
    for each element x of the dataset.
+   
    if x is a kernel or x is not in a cluster :
+   
    construct_cluster(x).
+   
    else :
+   
    ignore the element.
   
   The call construct_cluster will consider x as a cluster and add it's neighbor to the cluster.
