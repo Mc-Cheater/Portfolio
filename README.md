@@ -35,10 +35,11 @@ you may find more informations about it here [Official Faculty website](http://w
 
 The content put focus on Mathematics basics during the first year (Calculus,Algebra, Linear Algebra, Arithmetics etc...),with some course on physics (Electrostatics and Thermodynamics) and an introduction to Algorithmic and Informatics, then you may specialize into Applied mathematics or computing science, i followed the computing science path.
 
-The two following years emphasis on the specialization choosen by the students with courses on programmation (Imperative programming under c (two courses), OOP (JAVA) Conception(UML), SQL Databases and relational algebra, Numerical Analysis, Operating systems(two courses), Computer architecture, Web developpement (two courses HTML CSS JS, PHP), Computer networks (3 courses), Data structures, Probability and Statistics,Compilation, Electronics and Magnetostatics. 
+The two following years emphasis on the specialization choosen by the students with courses on programmation (Imperative programming under c (two courses), OOP (JAVA) Conception(UML), SQL Databases and relational algebra, Numerical Analysis, Operating systems(two courses), Computer architecture, Web developpement (two courses HTML CSS JS, PHP), Computer networks (3 courses), Data structures, Probability and Statistics,Compilation, Electronics, Magnetostatics, Operations Research(Optimisation, Simplex algorithm, Shortesth path and maximum flow problem), GUI(Java(swing/AWT)). 
 
 Then From September 2018 to November 2020 (The presentation of the graduation project was delayed due to the coronavirus crisis, Moroccan authorities imposed a strict 3 months
-quarantine) I pursued a Master' Degree at the same University on Intelligent Processing Systems wich focus on Artifical Intelligence and Data Science with courses on Data Mining, Machine Learning, Computational and Heuristics, Artificial Intelligence, Big Data, Cloud Computing, Business Intelligence, Constraint satisfaction problems etc... .(more info: [Master Flyer](http://www.fsr.ac.ma/content/traitement-intelligent-des-systemes 'Master Flyer')).
+quarantine) I pursued a Master' Degree at the same University on Intelligent Processing Systems wich focus on Artifical Intelligence and Data Science with courses on Data Mining, Machine Learning, Deep Learning, Computational and Heuristics, Artificial Intelligence, Big Data, Cloud Computing, Business Intelligence, Constraint satisfaction problems etc... .(more info: [Master Flyer](http://www.fsr.ac.ma/content/traitement-intelligent-des-systemes 'Master Flyer')).
+
 
 
 ## Precedent work
