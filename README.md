@@ -1,10 +1,38 @@
 # Portfolio
 Welcome to my portfolio, i'm Adil Qarboua a new technologies ethousiast, i have strong interest to the fields of Artificial Intelligence and High Performance Computing.
-i have a preference towards low level programming language (C and C++) as i awkwardly feel like not doing too much when i use Python.
+i have a preference towards low level programming language (C and C++) even if i know some Python and Java.
 
 In the next sections i will present my academic background with emphasis on two particular projects.
 
 I hope that you will find it interesting.
+## Academic Background
+I borrowed the following table from [ScholarPro](https://www.scholaro.com/pro/Countries/Morocco/Education-System 'scholarpro') it resume's the Educational system of Morocco.
+
+The path i followed (the most common path) is 6 years of primary shcool, 3 years of middle school followed by 3 years of secondary school, then i attended a bachelor's degree (4 years precedently 3) followed by a master's degree(2 years).
+
+I will present my University degree's(Bachelor and Master) with more details after the table.
+
+<div class="k-grid-content k-auto-scrollable" style="height:auto"><table><colgroup><col style="width:10px" /><col style="width:85px" /><col style="width:240px" /><col style="width:70px" /><col style="width:70px" /><col style="width:70px" /><col style="width:335px" /></colgroup><tbody>
+  <tr class="k-master-row"><td style="background-color: #9999CC"></td><td>Education</td><td>School Level</td><td style="text-align:center;">Grades</td><td style="text-align:center;">Age</td><td style="text-align:center;">years</td><td>Notes </td></tr><tr class="k-alt k-master-row"><td style="background-color: #7ABDFF"></td></tr>
+  
+  
+  
+  
+  <tr class="k-master-row"><td style="background-color: #9999CC"></td><td>Primary</td><td>Primary School</td><td style="text-align:center;">1–6</td><td style="text-align:center;">6–12</td><td style="text-align:center;">6</td><td>Primary School education is compulsory </td></tr><tr class="k-alt k-master-row"><td style="background-color: #7ABDFF"></td><td>Middle</td><td>Basic Education (Cycle  coll&#233;gial)</td><td style="text-align:center;">7–9</td><td style="text-align:center;">12–15</td><td style="text-align:center;">3</td><td>Certificate/diploma awarded: Certificat d&#39;Enseignement secondaire
+</td></tr>
+ 
+  
+  
+ <tr class="k-master-row"><td style="background-color: #95E495"></td><td>Secondary</td><td>General Secondary (Cycle  qualificant)</td><td style="text-align:center;">10–12</td><td style="text-align:center;">15–18</td><td style="text-align:center;">3</td><td>Certificate/diploma awarded: Baccalaur&#233;at</td></tr><tr class="k-alt k-master-row"><td style="background-color: #95E495"></td><td>Secondary</td><td>Technical Secondary</td><td style="text-align:center;"></td><td style="text-align:center;">15–18</td><td style="text-align:center;">3</td><td>Certificate/diploma awarded: Baccalaur&#233;at Technique</td></tr><tr class="k-master-row"><td style="background-color: #FFCC99"></td><td>Post-secondary</td><td>General University Diploma</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;">2</td><td>Preparatory phase: Dipl&#244;me ď&#201;tudes Universitaires G&#233;n&#233;rales</td></tr><tr class="k-alt k-master-row"><td style="background-color: #FFCC99"></td><td>Vocational</td><td>Technical</td><td style="text-align:center;"></td><td style="text-align:center;">18–20</td><td style="text-align:center;">2</td><td>Certificate/diploma awarded: Brevet de Technicien sup&#233;rieur</td></tr><tr class="k-master-row"><td style="background-color: #FF7A7A"></td><td>Tertiary</td><td>Bachelor&#39;s</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;">4</td><td>Licence</td></tr><tr class="k-alt k-master-row"><td style="background-color: #FF7A7A"></td><td>Tertiary</td><td>Master&#39;s</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;">1–3</td><td>Leads to the award of the Licence / Ma&#238;trise /Dipl&#244;me
+(4 to 5 yeas total including preparatory phase)
+</td></tr><tr class="k-master-row"><td style="background-color: #FF7A7A"></td><td>Tertiary</td><td>Doctorate</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;">2–7</td><td>Certificate/diploma awarded:Dipl&#244;me d’Etudes Sup&#233;rieurs(DES), 
+Dipl&#244;me d’Etudes Sup&#233;rieurs Approfondies(DESA)
+(two to three years in length)
+Students wishing to study for the Doctorat must first complete the DES(S/A). Doctoral studies require at least two years of research beyond the DES and the writing and defense of a dissertation. The Doctorat en M&#233;decine and Doctorat en M&#233;decine Dentaire require a baccalaur&#233;at from the science track for entry and studies last seven and five years respectively.</td></tr></tbody></table></div>
+
+
+
+
 
 ## Precedent work
 ### C/c++
