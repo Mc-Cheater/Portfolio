@@ -74,9 +74,10 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   A classic **auto-encoder** is a neural network where the labels (the output desired vectors) are the input data.
   The goal of an **auto-encoder** is to capture the input vectors on the weights at the middle hidden layer.
   It's used for compression purposes by feeding a neural network where this layers contain less nodes than the original vectors dimension.
+  <p align="center">
   
-  <img src="./IMG/auto_encoder.png"> 
-  
+  <img src="./IMG/auto_encoder.png" width="350" title="Auto-Encoder"> 
+  </p>
   The special type of auto-encoders used by Word2vec is called a **skip-gram model** where the desired outputs are the words who appears in the same
   context.
   
@@ -95,7 +96,10 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   How can a **skip gram model** capture this proximity regarding to the context?
   
   Take a look at the next figure.
-  ![Slicing Window]()
+  <p align="center">
+  
+  <img src="./IMG/Slicing window.png" width="350" title="Auto-Encoder"> 
+  </p>
   
   The skip garm model will train an auto encoder as if the most common desired output for each word is the most common words surrounding it on a sentence.
   Two words will be similar (have a low euclidian distance between them on the vectorial space) if they appear often on the same context.
@@ -178,6 +182,10 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   ![a weighted graph]()
   
+  <p align="center">
+  
+  <img src="./IMG/Slicing window.png" width="350" title="Auto-Encoder"> 
+  </p>
   An hypergraph is a graph generalisation where Edges are tuples who can link more than 2 vertices.
   
   On the paper **A Hypergraph-based Method for Discovering Semantically Associated Itemsets** [[1]](#1), the authors propose a modelisation of a qualitatif dataset as an hypergraph 
@@ -197,8 +205,11 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   A **random walk** on a graph is a process that begins at some vertex, and at each time step moves to another vertex, it's **length** (L) is the number of vertices visited.
   
-  ![a random walk]()
   
+  <p align="center">
+  
+  <img src="./IMG/rISDS.gif" width="350" title="Random Walk"> 
+  </p>
   
   
   When the graph is weighted, **it moves to a neighbor with probability proportional to the weight of the corresponding edge**.
@@ -211,7 +222,10 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   Node2vec[[3]](#3) is a variant of Deep Walk who overcome the rigidity of Deep Walk by introducing two parameters who will alter the strategy of neighbor searching during the random walk who's fixed by the weights during Deep Walk. the first parameter p controls the likelihood of immediately revisiting a vertex in the walk, setting it to a high value decrease the probability of revisting this vertex. Parameter q allows the search to differentiate between **inward** and **outward** vertices, if a vertex is linked to the vertex you immediately left it will be untouched by the q parameter(inward vertex), outward vertices will be favored if q < 1 and if q is set to a high value, the likelihood of visiting such vertices will decrease. 
   
-  ![Node2vec search strategy]()
+  <p align="center">
+  
+  <img src="./IMG/Node2vec.png" width="350" title=""> 
+  </p>
   
   
   #### Results
@@ -227,14 +241,26 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   After the application of Hashian and Liu modelisation and DeepWalk i applied AHC algorithm (SKlearn) to the embedded vectors with the following result:
   
-  ![AHC results]()
+  
+  <p align="center">
+  
+  <img src="./IMG/lymphography_clusers.cah.png" width="350" title="Global_results"> 
+  </p>
   
   let's zoom ont the red and green clusters:
   
   ![class normal find]()
   
+  <p align="center">
+  
+  <img src="./IMG/normal_find.cah.png" width="350" title="Class Normal find"> 
+  </p>
   ![class fibrosis]()
   
+  <p align="center">
+  
+  <img src="./IMG/fibrosis.cah.png" width="350" title="Class Fibrosis"> 
+  </p>
   On the normal find class we recognize the most reassuring analysis results, with lymph node without any change in structure or form, no defects and without a proliferation.
   
   On another hand the fibrosis class has more alarming symptoms as a proliferation of nodes, changes in structure etc... .
