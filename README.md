@@ -274,8 +274,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   The loops iterate over the dataset (404 patient with 33 features), i sum on the variable vector (a 128 numpy array) the encoded features of the patient, then i divide byt the number of feature to get the avg point, and i add to histo2 the label corresponding to the closest class.
   
   Then i compare these labels to the real labels (the vector histos contain the true labels).
-  #### Bibliography
-  
+
   ## References
 <a id="1">[1]</a> 
 Hashian , Liu (2011). 
