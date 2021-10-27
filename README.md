@@ -52,15 +52,17 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   #### Introduction
   
-  _Graph embedding_ is a method who tries to **transform graph nodes to vectors** representing theese nodes.
-  The vectors should capture some of the caracteristics of the nodes mainly their **proximity**.
-  Two nodes who are neighbors should be embedded to two vectors having a low distance measure (Euclidian Distance for example) between them.
+  _Graph embedding_ is a method who tries to **transform graph vertices to vectors** representing theese vertices.
+  The vectors should capture some of the caracteristics of the vertices mainly their **proximity**.
+  Two vertices who are neighbors should be embedded to two vectors having a low distance measure (Euclidian Distance for example) between them.
   
   #### Application  
-  Graph embedding have a large application panel like :
+  Graph embedding have a large application panel on the fields of :
  
   * Biomedical and BioInformatic
-  * Association Rule 
+  * Knowledge Graphs
+  * Association Rule Extraction
+  * NLP (Word2vec) 
   * **Features encoding** 
   We will focus on features encoding. In the next section i will present the principle of Word2Vec who is widely used on NLP and who is
   mainly based on graph embedding.
@@ -169,20 +171,59 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   #### Hashian and Liu modélisation:
   
+  A graph (sometimes called undirected graph) is a pair G = (V, E), where V is a set whose elements are called vertices (singular: vertex), and E is a set of paired vertices, whose elements are called edges.
   
   
+  A weighted graph is a graph in which weights are assigned to each edge. Such weights might represent for example costs, lengths or capacities, depending on the problem at hand.
   
+  ![a weighted graph]()
   
+  An hypergraph is a graph generalisation where Edges are tuples who can link more than 2 vertices.
   
+  On the paper **A Hypergraph-based Method for Discovering Semantically Associated Itemsets** [[1]](#1), the authors propose a modelisation of a qualitatif dataset as an hypergraph 
+  to overcome the limitation of **a-priori** algorithm when it comes to undirect links.
   
+  They capture **items as vertices** of an hypergraph, **itemsets as Hyper Edges** and co-occurence frequency as weights. 
   
+  Then with some advanced calculcation they define their own proximity measure based on the **Combinatory Hypergraph Laplacien**.
+  
+  I used this modelisation with graph embedding algorithms DeepWalk and Node2Vec to encode categorical features of a dataset so that the embedded resulting  feature keeps the proximity based on frequency captured by the hypergraph.
+  
+  Then I used the embedded features for clustering and classification tasks.
   
   .
 #### DeepWalk, Node2Vec and Random Walks
   During this section i will present the way i implemented Node2vec and Deep Walk for hypergraphs embedding purposes.
-  #### Results
-  I will present the result on 2 real datasets. A dataset of AliBaba clients who tries to identify wich incentives (ticket reduction, Proximity of stores) affect customer fidelity.
-  A dataset of patients diagnosed with laro-pharynx cancer who tries to identify the common traits of these patients.
   
+  A **random walk** on a graph is a process that begins at some vertex, and at each time step moves to another vertex, it's **length** (L) is the number of vertices visited.
+  
+  ![a random walk]()
+  
+  
+  
+  When the graph is weighted, **it moves to a neighbor with probability proportional to the weight of the corresponding edge**.
+  It result in the **walk** of visited vertices, or the sequence of length L of visited vertices.
+  
+  
+  I implemented Deep Walk [[2]](#2) by feeding to an auto encoder a dataset generated with a High Number of random walks starting from each vertices.
+  
+  On the generated Dataset each vertex has as a desired output the results of the random walks started from it.
+  
+  Node2vec[[3]](#3) is a variant of Deep Walk who overcome the rigidity of Deep Walk by introducing two parameters who will alter the strategy of neighbor searching during the random walk who's fixed by the weights during Deep Walk. the first parameter p controls the likelihood of immediately revisiting a vertex in the walk, setting it to a high value decrease the probability of revisting this vertex. Parameter q allows the search to differentiate between **inward** and **outward** vertices, if a vertex is linked to the vertex you immediately left it will be untouched by the q parameter(inward vertex), outward vertices will be favored if q < 1 and if q is set to a high value, the likelihood of visiting such vertices will decrease. 
+  
+  ![a weighted graph]()
+  
+  
+  #### Results
+  I will present the result on a real datasets of patients diagnosed with laro-pharynx cancer where I try to identify the common traits of these patients.
+  
+  
+  #### Bibliography
+  
+  ## References
+<a id="1">[1]</a> 
+Hashian , Liu (2011). 
+A Hypergraph-based Method for Discovering Semantically Associated Itemsets. 
+IEEE 11th International Conference on Data Mining.
 </details>
   
