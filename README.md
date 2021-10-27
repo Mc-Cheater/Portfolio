@@ -131,8 +131,8 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   * The mode.(**K-mode**, useful for qualitative dataset where the average calculation is impracticable).
    
    ##### Density Based methods (DB-SCAN).
-   DB-SCAN introduce two parameters **MinPts** and **$\epsilon$** .
-   * **&epsilon** refer to the maximal distance between two elements under which they are considered as **neighbors**.
+   DB-SCAN introduce two parameters **MinPts** and **&epsilon;** .
+   * **&epsilon;** refer to the maximal distance between two elements under which they are considered as **neighbors**.
    * **Minpts** is the minimal number of neighbors that an element should have to be considered as a **kernel**.
    It introduce also the following definitions:
    
