@@ -67,7 +67,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   We will focus on features encoding. In the next section i will present the principle of Word2Vec who is widely used on NLP and who is
   mainly based on graph embedding.
   
-  #### Word2vec and auto-encoders
+  ### Word2vec and auto-encoders
   **Word2vec** is an algorithm who process a text corpus and who transform each word into a vector based on the training of a special
   type of **auto-encoders**.
   
@@ -109,7 +109,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   So if you retrieve the weights of this layer they should somehow encode the features in a way that will allow a discrimination,
   these weight will then represent the features on the vectorial space after the training.
   
-  #### Clustering and similarity
+  ### Clustering and similarity
   During this section i will briefly present the principles behind the clustering algorithms present on the figure Clustering algorithm and similarity.
   Then i will present **Hashian and Liu** Hypergraphs modelisation proposal for capturing similarity between features of a qualitatif dataset based on frequency.
   
@@ -133,7 +133,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   A variant consist of calculating the new center after the assignement of each element, it may converge faster but the result depends on the order in wich the elements
   are introduced.
   
-  The centers may be:
+  The centers may be(non-exhaustive list):
   * A fictive point representing the simple calculation of the average. (**K-means**)
   * The element closest to the average. (**K-medoid**)
   * The median point. (**K-median**)
@@ -151,13 +151,13 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
    
      x1=Y, xn=X and for each i>0: xi is directly d-reachable from xi-1. 
    
-   * Two elements X and Y are **d-connected**if an element Z exist from wich X and Y are d-reachable.
+   * Two elements X and Y are **d-connected** if an element Z exist from wich X and Y are d-reachable.
    
    The algorithm can be described as:
    
    for each element x of the dataset.
    
-   if (x is a kernel or x is not in a cluster ):
+   if (x is a kernel and x is not in a cluster ):
    
    **construct_cluster**(x).
   
@@ -173,7 +173,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   By embedding the features of a qualitative dataset to a low dimensional space we can apply this calculation provided that those vector 
   capture the similarity.
   
-  #### Hashian and Liu modélisation:
+  ### Hashian and Liu modélisation:
   
   A graph (sometimes called undirected graph) is a pair G = (V, E), where V is a set whose elements are called vertices (singular: vertex), and E is a set of paired vertices, whose elements are called edges.
   
@@ -198,7 +198,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   Then I used the embedded features for clustering and classification tasks.
   
   .
-#### DeepWalk, Node2Vec and Random Walks
+### DeepWalk, Node2Vec and Random Walks
   During this section i will present the way i implemented Node2vec and Deep Walk for hypergraphs embedding purposes.
   
   A **random walk** on a graph is a process that begins at some vertex, and at each time step moves to another vertex, it's **length** (L) is the number of vertices visited.
@@ -226,7 +226,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   </p>
   
   
-  #### Results
+  ### Results
   
   
   I will present the result on a real datasets of patients diagnosed with lymph cancer where I try to identify the common traits of these patients.
