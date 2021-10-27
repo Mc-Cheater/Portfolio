@@ -180,11 +180,9 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   A weighted graph is a graph in which weights are assigned to each edge. Such weights might represent for example costs, lengths or capacities, depending on the problem at hand.
   
-  ![a weighted graph]()
-  
   <p align="center">
   
-  <img src="./IMG/Slicing window.png" width="350" title="Auto-Encoder"> 
+  <img src="./IMG/wgraph.png" width="350" title="Auto-Encoder"> 
   </p>
   An hypergraph is a graph generalisation where Edges are tuples who can link more than 2 vertices.
   
@@ -244,7 +242,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   <p align="center">
   
-  <img src="./IMG/lymphography_clusers.cah.png" width="350" title="Global_results"> 
+  <img src="./IMG/lymphography_clusers.png" width="350" title="Global_results"> 
   </p>
   
   let's zoom ont the red and green clusters:
@@ -253,13 +251,13 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   <p align="center">
   
-  <img src="./IMG/normal_find.cah.png" width="350" title="Class Normal find"> 
+  <img src="./IMG/normal_find.png" width="350" title="Class Normal find"> 
   </p>
   ![class fibrosis]()
   
   <p align="center">
   
-  <img src="./IMG/fibrosis.cah.png" width="350" title="Class Fibrosis"> 
+  <img src="./IMG/fibrosis.png" width="350" title="Class Fibrosis"> 
   </p>
   On the normal find class we recognize the most reassuring analysis results, with lymph node without any change in structure or form, no defects and without a proliferation.
   
