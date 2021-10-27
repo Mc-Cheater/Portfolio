@@ -75,7 +75,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   The goal of an **auto-encoder** is to capture the input vectors on the weights at the middle hidden layer.
   It's used for compression purposes by feeding a neural network where this layers contain less nodes than the original vectors dimension.
   
-  ![an auto encoder]()
+  ![an auto encoder](https://github.com/Mc-Cheater/Portfolio/tree/main/IMG/auto_encoder.png)
   
   The special type of auto-encoders used by Word2vec is called a **skip-gram model** where the desired outputs are the words who appears in the same
   context.
