@@ -77,7 +77,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   ![an auto encoder]()
   
-  The special type of auto-encoders used by Word2vec is called a **skip-gram model** where the desired are the words who appears in the same
+  The special type of auto-encoders used by Word2vec is called a **skip-gram model** where the desired outputs are the words who appears in the same
   context.
   
   Word2Vec work by assuming a relatively coherent hypothesis wich is **two words who appears on the same context may have the same signification**.
@@ -95,7 +95,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   How can a **skip gram model** capture this proximity regarding to the context?
   
   Take a look at the next figure.
-  ![a skip gram model]()
+  ![Slicing Window]()
   
   The skip garm model will train an auto encoder as if the most common desired output for each word is the most common words surrounding it on a sentence.
   Two words will be similar (have a low euclidian distance between them on the vectorial space) if they appear often on the same context.
@@ -215,7 +215,13 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   
   #### Results
-  I will present the result on a real datasets of patients diagnosed with laro-pharynx cancer where I try to identify the common traits of these patients.
+  
+  
+  I will present the result on a real datasets of patients diagnosed with lymph cancer where I try to identify the common traits of these patients.
+  
+  This dataset has patient with analysis results on **lymph nodes** who are great indicators of cancer presence.
+  
+  You can find the dataset here [Lymphography dataset](https://archive.ics.uci.edu/ml/datasets/Lymphography) 
   
   
   #### Bibliography
