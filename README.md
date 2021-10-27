@@ -242,22 +242,20 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   <p align="center">
   
-  <img src="./IMG/lymphography_clusers.png" width="350" title="Global_results"> 
+  <img src="./IMG/lymphography_clusers.jpg" width="350" title="Global_results"> 
   </p>
   
   let's zoom ont the red and green clusters:
   
-  ![class normal find]()
   
   <p align="center">
   
-  <img src="./IMG/normal_find.png" width="350" title="Class Normal find"> 
+  <img src="./IMG/normal_find.jpg" width="350" title="Class Normal find"> 
   </p>
-  ![class fibrosis]()
   
   <p align="center">
   
-  <img src="./IMG/fibrosis.png" width="350" title="Class Fibrosis"> 
+  <img src="./IMG/fibrosis.jpg" width="350" title="Class Fibrosis"> 
   </p>
   On the normal find class we recognize the most reassuring analysis results, with lymph node without any change in structure or form, no defects and without a proliferation.
   
