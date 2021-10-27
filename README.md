@@ -6,7 +6,10 @@ In the next sections i will present my academic background with emphasis on two 
 
 I hope that you will find it interesting.
 ## Academic Background
-I borrowed the following table from [ScholarPro](https://www.scholaro.com/pro/Countries/Morocco/Education-System 'scholarpro') it resume's the Educational system of Morocco.
+
+:point_down: (click to expand) <details markdown=1>
+  <summary> Morrocco Education system </summary> 
+I borrowed the following table from <a href =https://www.scholaro.com/pro/Countries/Morocco/Education-System> ScholarPro </a> it resume's the Educational system of Morocco.
 
 The path i followed (the most common path) is 6 years of primary shcool, 3 years of middle school followed by 3 years of secondary school, then i attended a bachelor's degree (4 years precedently 3) followed by a master's degree(2 years).
 
@@ -29,16 +32,16 @@ I will present my University degree's(Bachelor and Master) with more details aft
 Dipl&#244;me d’Etudes Sup&#233;rieurs Approfondies(DESA)
 (two to three years in length)
 Students wishing to study for the Doctorat must first complete the DES(S/A). Doctoral studies require at least two years of research beyond the DES and the writing and defense of a dissertation. The Doctorat en M&#233;decine and Doctorat en M&#233;decine Dentaire require a baccalaur&#233;at from the science track for entry and studies last seven and five years respectively.</td></tr></tbody></table></div>
-
+</details>
 Between September 2014 and July 2018 pursued my Bachelor's Degree of Mathematical and Computer science (the local name is "Licence Mathématiques et Informatique" at the University Mohammed V Souissi (Rabat),
-you may find more informations about it here [Official Faculty website](http://www.fsr.ac.ma/content/sciences-math%C3%A9matiques-et-informatique 'Official Faculty website').
+you may find more informations about it here <a href=http://www.fsr.ac.ma/content/sciences-math%C3%A9matiques-et-informatique> Official Faculty website </a>).
 
 The content put focus on Mathematics basics during the first year (Calculus,Algebra, Linear Algebra, Arithmetics etc...),with some course on physics (Electrostatics and Thermodynamics) and an introduction to Algorithmic and Informatics, then you may specialize into Applied mathematics or computing science, i followed the computing science path.
 
 The two following years emphasis on the specialization choosen by the students with courses on programmation (Imperative programming under c (two courses), OOP (JAVA) Conception(UML), SQL Databases and relational algebra, Numerical Analysis, Operating systems(two courses), Computer architecture, Web developpement (two courses HTML CSS JS, PHP), Computer networks (3 courses), Data structures, Probability and Statistics,Compilation, Electronics, Magnetostatics, Operations Research(Optimisation, Simplex algorithm, Shortesth path and maximum flow problem), GUI(Java(swing/AWT)). 
 
 Then From September 2018 to November 2020 (The presentation of the graduation project was delayed due to the coronavirus crisis, Moroccan authorities imposed a strict 3 months
-quarantine) I pursued a Master' Degree at the same University on Intelligent Processing Systems wich focus on Artifical Intelligence and Data Science with courses on Data Mining, Machine Learning, Deep Learning, Computational and Heuristics, Artificial Intelligence, Big Data, Cloud Computing, Business Intelligence, Constraint satisfaction problems etc... .(more info: [Master Flyer](http://www.fsr.ac.ma/content/traitement-intelligent-des-systemes 'Master Flyer')).
+quarantine) I pursued a Master' Degree at the same University on Intelligent Processing Systems wich focus on Artifical Intelligence and Data Science with courses on Data Mining, Machine Learning, Deep Learning, Computational and Heuristics, Artificial Intelligence, Big Data, Cloud Computing, Business Intelligence, Constraint satisfaction problems etc... .(more info: <a href=http://www.fsr.ac.ma/content/traitement-intelligent-des-systemes> Master Flyer </a>)).
 
 
 
