@@ -211,7 +211,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   Node2vec[[3]](#3) is a variant of Deep Walk who overcome the rigidity of Deep Walk by introducing two parameters who will alter the strategy of neighbor searching during the random walk who's fixed by the weights during Deep Walk. the first parameter p controls the likelihood of immediately revisiting a vertex in the walk, setting it to a high value decrease the probability of revisting this vertex. Parameter q allows the search to differentiate between **inward** and **outward** vertices, if a vertex is linked to the vertex you immediately left it will be untouched by the q parameter(inward vertex), outward vertices will be favored if q < 1 and if q is set to a high value, the likelihood of visiting such vertices will decrease. 
   
-  ![a weighted graph]()
+  ![Node2vec search strategy]()
   
   
   #### Results
