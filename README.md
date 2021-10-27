@@ -223,6 +223,27 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   You can find the dataset here [Lymphography dataset](https://archive.ics.uci.edu/ml/datasets/Lymphography) 
   
+  This dataset have 4 diagnosis (normal_find, malign lymph , metastasis and fibrosis).
+  
+  After the application of Hashian and Liu modelisation and DeepWalk i applied AHC algorithm (SKlearn) to the embedded vectors with the following result:
+  
+  ![AHC results]()
+  
+  let's zoom ont the red and green clusters:
+  
+  ![class normal find]()
+  
+  ![class fibrosis]()
+  
+  On the normal find class we recognize the most reassuring analysis results, with lymph node without any change in structure or form, no defects and without a proliferation.
+  
+  On another hand the fibrosis class has more alarming symptoms as a proliferation of nodes, changes in structure etc... .
+  
+  The algorithm joined the two other classes metastasis and malign lymph before the ideal dendrogramm cutting point, you can find on the repository the whole dendrogram if you want to check them.
+  
+  I also applied this to two other datasets, another medical dataset from Morocco Pasteur institute who's about laro-pharynx cancer and an alibaba dataset about customers incentives (such as promotion tickets, and distance to the nearest store), however I'm not sure if i can publish these dataset's given that they are not open source.
+  
+  The resulsts were similar, I also applied a separation of the dataset to test train and validation, and i tested the precision of the results by averaging the features and comparing them to the nearest vector (who represent a class), wich resulted on a 92% precision on the Moroccan dataset, the alibaba dataset also performed a 92% precision.
   
   #### Bibliography
   
