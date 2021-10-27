@@ -266,6 +266,14 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   I also applied this to two other datasets, another medical dataset from Morocco Pasteur institute who's about laro-pharynx cancer and an alibaba dataset about customers incentives (such as promotion tickets, and distance to the nearest store), however I'm not sure if i can publish these dataset's given that they are not open source.
   
   The resulsts were similar, I also applied a separation of the dataset to test train and validation, and i tested the precision of the results by averaging the features and comparing them to the nearest vector (who represent a class), wich resulted on a 92% precision on the Moroccan dataset and the alibaba dataset.
+  
+   <img src="./IMG/python_code.png" width="503" title="">
+  
+  Here Histo_3, Histo_2, and Histo_4 represent the classes as encoded vectors.
+  
+  The loops iterate over the dataset (404 patient with 33 features), i sum on the variable vector (a 128 numpy array) the encoded features of the patient, then i divide byt the number of feature to get the avg point, and i add to histo2 the label corresponding to the closest class.
+  
+  Then i compare these labels to the real labels (the vector histos contain the true labels).
   #### Bibliography
   
   ## References
