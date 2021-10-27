@@ -243,8 +243,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   
   I also applied this to two other datasets, another medical dataset from Morocco Pasteur institute who's about laro-pharynx cancer and an alibaba dataset about customers incentives (such as promotion tickets, and distance to the nearest store), however I'm not sure if i can publish these dataset's given that they are not open source.
   
-  The resulsts were similar, I also applied a separation of the dataset to test train and validation, and i tested the precision of the results by averaging the features and comparing them to the nearest vector (who represent a class), wich resulted on a 92% precision on the Moroccan dataset, the alibaba dataset also performed a 92% precision.
-  
+  The resulsts were similar, I also applied a separation of the dataset to test train and validation, and i tested the precision of the results by averaging the features and comparing them to the nearest vector (who represent a class), wich resulted on a 92% precision on the Moroccan dataset and the alibaba dataset.
   #### Bibliography
   
   ## References
@@ -252,5 +251,16 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
 Hashian , Liu (2011). 
 A Hypergraph-based Method for Discovering Semantically Associated Itemsets. 
 IEEE 11th International Conference on Data Mining.
+
+
+<a id="2">[2]</a> 
+Perrozi, Al–Rfou, Skiena (2014). 
+DeepWalk: Online Learning of Social RepresentationsIEEE 11th International Conference on Data Mining.
+ACMProceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining p. 701–710 .
+
+<a id="3">[3]</a> 
+Aditya, Grover (2016). 
+node2vec: Scalable Feature Learning for Networks. 
+ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2016.
 </details>
   
