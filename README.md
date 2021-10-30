@@ -111,7 +111,7 @@ quarantine) I pursued a Master' Degree at the same University on Intelligent Pro
   these weight will then represent the features on the vectorial space after the training.
   
   ### Clustering and similarity
-  During this section i will briefly present the principles behind the clustering algorithms present on the figure Clustering algorithm and similarity.
+  During this section i will briefly present the principles behind some clustering algorithms .
   Then i will present **Hashian and Liu** Hypergraphs modelisation proposal for capturing similarity between features of a qualitatif dataset based on frequency.
   
   ##### AHC
