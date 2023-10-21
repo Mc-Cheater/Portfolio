@@ -1,8 +1,8 @@
 # Portfolio
 Welcome to my portfolio, i'm Adil Qarboua a new technologies ethousiast, i have strong interest to the fields of Artificial Intelligence and High Performance Computing.
-i have a preference towards low level programming language (C and C++) even if i know some Python and Java.
 
-In the next sections i will present my academic background with emphasis on two particular projects.
+
+In the next sections i will present my academic background with emphasis on a particular project.
 
 I hope that you will find it interesting.
 ## Academic Background
